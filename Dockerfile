@@ -2,7 +2,7 @@ FROM python:latest
 
 WORKDIR /code
 
-COPY projects/PiramixBot/ .
+COPY projects/telegram_random_bot/ .
 
 RUN pip install -r requirements.txt
 

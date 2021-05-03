@@ -3,4 +3,5 @@ services:
   app:
     build:
       context: .
-    image: telegram-shoppub-stack
+#    image: telegram-shoppub-stack
+    image: telegram-random-bot
