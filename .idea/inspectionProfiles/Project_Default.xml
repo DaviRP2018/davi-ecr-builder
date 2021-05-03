@@ -1,0 +1,90 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyCompatibilityInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ourVersions">
+        <value>
+          <list size="5">
+            <item index="0" class="java.lang.String" itemvalue="3.7" />
+            <item index="1" class="java.lang.String" itemvalue="3.8" />
+            <item index="2" class="java.lang.String" itemvalue="3.9" />
+            <item index="3" class="java.lang.String" itemvalue="3.10" />
+            <item index="4" class="java.lang.String" itemvalue="3.10" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="42">
+            <item index="0" class="java.lang.String" itemvalue="mundipagg-one" />
+            <item index="1" class="java.lang.String" itemvalue="clearsale-python" />
+            <item index="2" class="java.lang.String" itemvalue="MundiAPI-PYTHON" />
+            <item index="3" class="java.lang.String" itemvalue="kpl-python" />
+            <item index="4" class="java.lang.String" itemvalue="skd-mercadopago" />
+            <item index="5" class="java.lang.String" itemvalue="django-model-utils" />
+            <item index="6" class="java.lang.String" itemvalue="djangorestframework" />
+            <item index="7" class="java.lang.String" itemvalue="cnab240" />
+            <item index="8" class="java.lang.String" itemvalue="suds" />
+            <item index="9" class="java.lang.String" itemvalue="django-adv-cache-tag" />
+            <item index="10" class="java.lang.String" itemvalue="Django-Select2" />
+            <item index="11" class="java.lang.String" itemvalue="psycopg2" />
+            <item index="12" class="java.lang.String" itemvalue="sorl-thumbnail" />
+            <item index="13" class="java.lang.String" itemvalue="wsgiref" />
+            <item index="14" class="java.lang.String" itemvalue="django-appconf" />
+            <item index="15" class="java.lang.String" itemvalue="kombu" />
+            <item index="16" class="java.lang.String" itemvalue="celery" />
+            <item index="17" class="java.lang.String" itemvalue="pyboleto" />
+            <item index="18" class="java.lang.String" itemvalue="django-redis" />
+            <item index="19" class="java.lang.String" itemvalue="django-admin-report" />
+            <item index="20" class="java.lang.String" itemvalue="lxml" />
+            <item index="21" class="java.lang.String" itemvalue="Pillow" />
+            <item index="22" class="java.lang.String" itemvalue="WeasyPrint" />
+            <item index="23" class="java.lang.String" itemvalue="factory-boy" />
+            <item index="24" class="java.lang.String" itemvalue="Werkzeug" />
+            <item index="25" class="java.lang.String" itemvalue="ipdb" />
+            <item index="26" class="java.lang.String" itemvalue="ipython" />
+            <item index="27" class="java.lang.String" itemvalue="awscli" />
+            <item index="28" class="java.lang.String" itemvalue="django-debug-toolbar" />
+            <item index="29" class="java.lang.String" itemvalue="django-debug-panel" />
+            <item index="30" class="java.lang.String" itemvalue="django-extensions" />
+            <item index="31" class="java.lang.String" itemvalue="urllib3" />
+            <item index="32" class="java.lang.String" itemvalue="sentry-sdk" />
+            <item index="33" class="java.lang.String" itemvalue="amqp" />
+            <item index="34" class="java.lang.String" itemvalue="certifi" />
+            <item index="35" class="java.lang.String" itemvalue="pillow" />
+            <item index="36" class="java.lang.String" itemvalue="requests" />
+            <item index="37" class="java.lang.String" itemvalue="vine" />
+            <item index="38" class="java.lang.String" itemvalue="billiard" />
+            <item index="39" class="java.lang.String" itemvalue="redis" />
+            <item index="40" class="java.lang.String" itemvalue="idna" />
+            <item index="41" class="java.lang.String" itemvalue="qrcode" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="shoppub.avaliacoes.models.IntegracaoAvaliacao.*" />
+          <option value="shoppub.avaliacoes.models.Avaliacao.*" />
+          <option value="shoppub.pedidos.models.PedidoFrete.*" />
+          <option value="shoppub.pagamentos.models.ExemptPayment.*" />
+          <option value="shoppub.pagamentos.models.MetodoPagamento.*" />
+          <option value="shoppub.pagamentos.models.EstornoTransacaoCartaoCredito.*" />
+          <option value="shoppub.pedidos.models.Pedido.*" />
+          <option value="shoppub.pedidos.models.Feedback.*" />
+          <option value="shoppub.pedidos.models.Comentario.*" />
+          <option value="shoppub.produtos.views.GenericProdutosCommonView.*" />
+          <option value="shoppub.produtos.models.Categoria.*" />
+          <option value="shoppub.produtos.models.Atributo.*" />
+          <option value="shoppub.produtos.models.AtualizacaoPrecoProduto.*" />
+          <option value="shoppub.produtos.models.ProdutosVitrineExterna.*" />
+          <option value="shoppub.models.Redirecionamento.*" />
+          <option value="shoppub.produtos.models.Produto_Atributo.*" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
