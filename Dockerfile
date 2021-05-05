@@ -1,9 +1,17 @@
-FROM python:latest
+FROM python:3.7-buster
 
 WORKDIR /code
 
-COPY projects/telegram_random_bot/ .
+COPY projects/stores .
 
-RUN pip install -r requirements.txt
+RUN mkdir ${HOME}/.ssh/
+RUN touch ${HOME}/.ssh/known_hosts
 
-CMD [ "python", "./core/echo_bot.py" ]
+RUN echo "${SSH_PRIVATE_KEY}" >> ${HOME}/.ssh/id_rsa && chmod 400 ${HOME}/.ssh/id_rsa
+
+RUN ssh-keyscan bitbucket.org >> /root/.ssh/known_hosts
+RUN ssh-keyscan github.com >> /root/.ssh/known_hosts
+
+RUN pip install -r ./app/shoppub/requirements/requirements.txt
+
+CMD [ "python", "manage.py runserver" ]
